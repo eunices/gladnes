@@ -1,3 +1,14 @@
+# Wedding site
+
+## Features
+
+In order of priority
+
+1. Wedding programme
+2. Wedding livestream
+3. Wedding namelist check-in
+4. Wedding guestbook/ well wishes
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
