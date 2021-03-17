@@ -4,7 +4,7 @@ module.exports = {
     'es2021': true,
   },
   'extends': [
-    'plugin:react/recommended',
+    // 'plugin:react/recommended',
   ],
   'parserOptions': {
     'ecmaFeatures': {
@@ -17,5 +17,9 @@ module.exports = {
     'react',
   ],
   'rules': {
+    'indent': ['error', 2],
+    'semi': ['error', 'always'],
+    'comma-dangle': ['error', 'always-multiline'],
+    'quotes': ['error', 'single'],
   },
 };

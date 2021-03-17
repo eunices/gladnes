@@ -9,6 +9,11 @@ In order of priority
 3. Wedding namelist check-in
 4. Wedding guestbook/ well wishes
 
+## User interface
+
+Grommet, using documentation [here](https://github.com/grommet/grommet-starter-new-app)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
