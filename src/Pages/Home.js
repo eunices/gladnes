@@ -20,7 +20,6 @@ class Home extends Component {
         backgroundSize: '80%',
         backgroundPosition: '120% -13%',
       }}>
-        
         <div id= "programme" className='programme'></div>
         <Programme/>
         <img src={separatorLongImg} alt='separator' className='separator-long'
@@ -33,8 +32,6 @@ class Home extends Component {
 
         <div id= "livestream"></div>
         <Livestream/>
-        <img src={separatorLongImg} alt='separator' className='separator-long'/>
-
       </Box>
     );
   }

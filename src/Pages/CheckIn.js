@@ -10,6 +10,7 @@ class CheckIn extends Component {
       <React.Fragment>
         <img style={{
           paddingTop: '80px',
+          paddingBottom: '0px',
         }} src={separatorLongImg} alt='separator' className='separator-long'/>
         <CheckInForm/>
       </React.Fragment>

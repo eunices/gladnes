@@ -7,7 +7,12 @@ class Programme extends Component {
 
   render() {
     return(
-      <Box flex={false} pad={{top: '200px'}}>
+      <Box style={{
+        backgroundColor: 'rgba(255, 255, 255, 0.8)',
+        borderRadius: '20px',
+        width: '80%',
+        margin: '100px auto',
+      }} flex={false} pad={{top: '160px', bottom: '100px'}}>
         <Box 
           pad={{horizontal: 'xsmall'}}
           direction='column'
@@ -16,14 +21,14 @@ class Programme extends Component {
           width='large'
           alignSelf='center'
           flex 
+          style={{
+            textAlign: 'center',
+          }}
         >
-          <Heading level="1" size="large" margin="small">
-            Welcome
+          <Heading level="1" size="medium" margin="small">
+           The wedding of Daniel x Eunice
           </Heading>
-          <Heading level="1" size="small" margin="small">
-            to the wedding of Daniel x Eunice
-          </Heading>
-          <Heading level="1" size="small" margin="small">
+          <Heading level="1" size="medium" margin="small">
           家俊 x 佳钰
           </Heading>
         </Box>
@@ -40,7 +45,7 @@ class Programme extends Component {
           Programme
               </Heading>
 
-              <Text size="small"  className='centered'>
+              <Text size="medium"  className='centered'>
           Welcome<br/>
           Praise and worship<br/>
           Exhortation<br/>
@@ -54,7 +59,7 @@ class Programme extends Component {
                 Bible verse
               </Heading>
 
-              <Text size="small"  className='centered'>
+              <Text size="medium"  className='centered'>
           Be completely humble and gentle; 
           be patient, bearing with one another in love. 
                 <StatusGoodSmall size='small' className='separator-icon'/>
@@ -63,7 +68,7 @@ class Programme extends Component {
             </Box>
           </Box>
 
-          <Box basis='medium' pad='medium' overflow={{horizontal: 'auto'}}>
+          <Box basis='medium' overflow={{horizontal: 'auto'}}>
             <Box 
               flex 
               align='center'
@@ -74,7 +79,7 @@ class Programme extends Component {
 
               <Heading level="2">程序</Heading>
 
-              <Text size="medium"  className='centered'>
+              <Text size="large"  className='centered'>
           欢迎<br/>
           诗歌<br/>
           藉神圣言勉励<br/>
@@ -85,7 +90,7 @@ class Programme extends Component {
 
               <Heading level="2">圣经经文</Heading>
 
-              <Text size="medium"  className='centered'>
+              <Text size="large"  className='centered'>
           凡事要谦虚、温柔、忍耐，
           用爱心互相宽容
                 <StatusGoodSmall size='small' className='separator-icon '/> 
