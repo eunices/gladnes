@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Youtube = ({ embedId }) => (
+const Youtube = (embedId) => (
   <div className="video-responsive">
     <iframe
       width="853"

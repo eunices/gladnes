@@ -9,7 +9,6 @@ const Navbar = props => {
 
   return(
     <Box
-      flex={false}
       style={{
         position: 'fixed',
         width: '100%',
