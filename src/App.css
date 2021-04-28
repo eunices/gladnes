@@ -13,30 +13,23 @@
   position: absolute;
 }
 
-.separator {
-  margin: 0 10px 0 10px;
+.separator-icon {
+  margin: 0 5px 0 5px;
 }
 
-.section-separator {
+.separator {
   width: 30%;
   max-width: 250px;
   margin: 0 auto;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
 }
 
-.section-sep-long{
-  width: 50%;
-  max-width: 400px;
+.separator-long {
+  width: 60%;
+  max-width: 500px;
   margin: 0 auto;
-  padding-top: 70px;
+  padding: 50px;
   padding-bottom: 30px;
-}
-
-.banner {
-  max-width: 800px;
-  width: 100%;
-  padding-top: 20px;
-  margin: 0 auto;
 }
 
 .centered {
@@ -44,12 +37,10 @@
 }
 
 .navButton {
-  width: 100%;
-  min-width: 100;
   text-align: center;
+  white-space: nowrap;
 }
 
 .navIcon{
-  margin-top: 5px;
-  margin-right: 10px;
+  margin: 2px;
 }

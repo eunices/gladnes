@@ -12,9 +12,9 @@ class CheckInForm extends Component {
 
   render() {
     return(
-      <Box pad='medium'>
+      <Box flex={false} >
         <Box direction='row' justify='center'>
-          <Box basis='large' pad='large' overflow={{horizontal: 'auto'}}>
+          <Box basis='large' overflow={{horizontal: 'auto'}}>
             <Box 
               flex 
               align='center'
@@ -23,7 +23,7 @@ class CheckInForm extends Component {
               alignSelf='center'
             >
               <Heading level="1">
-              Check-In <Location size="large"/>
+              Check-In 
               </Heading>
 
               <Form
@@ -46,7 +46,7 @@ class CheckInForm extends Component {
 
               </Form>
 
-              <Box direction="row" gap="medium">
+              <Box direction="row" gap="medium" pad="medium">
                 <Button type="submit" primary label="Submit" />
               </Box>
 

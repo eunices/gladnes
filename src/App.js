@@ -11,6 +11,7 @@ import CheckIn from './Pages/CheckIn';
 import Home from './Pages/Home';
 import Test from './Pages/Test';
 
+
 const theme = {
   
   global: {
@@ -31,12 +32,10 @@ const theme = {
 
   heading: {
     font: {
-      family: 'Ma Shan Zheng',
+      family: ['Arizonia'],
     },
     weight: 200,
   },
-
-
 };
 
 
@@ -47,7 +46,7 @@ class App extends Component {
       <Grommet theme={theme} full>
         <ResponsiveContext.Consumer>
           {size => (
-            <Box>
+            <Box fill>
               <BrowserRouter>
                 <Navbar></Navbar>
                 <Switch>

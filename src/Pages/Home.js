@@ -6,27 +6,34 @@ import Programme from '../Containers/Programme';
 import Livestream from '../Containers/Livestream';
 import Guestbook from '../Containers/Guestbook';
 
-import bannerImg from '../Assets/banner.png';
-import separatorImg from '../Assets/separator.png';
+import separatorSections from '../Assets/separatorSections.png';
 import separatorLongImg from '../Assets/separator-long.png';
+import background from '../Assets/background.png';
 
 class Home extends Component {
 
   render() {
     return(
-      <Box>
-      
-
-        <div id= "programme"></div>
+      <Box flex={false} style={{
+        backgroundImage: `url(${background})`,
+        backgroundRepeat: 'no-repeat',
+        backgroundSize: '80%',
+        backgroundPosition: '120% -13%',
+      }}>
+        
+        <div id= "programme" className='programme'></div>
         <Programme/>
-
+        <img src={separatorLongImg} alt='separator' className='separator-long'
+          style={{paddingTop: '20px', paddingBottom: '10px'}}/>
+        
         <div id= "guestbook"></div>
         <Guestbook/>
-        <img src={separatorImg} alt='separator' className='section-separator'/>
+        <img src={separatorSections} alt='separator' className='separator'
+          style={{paddingTop: '20px', paddingBottom: '30px'}}/>
 
         <div id= "livestream"></div>
         <Livestream/>
-        <img src={separatorLongImg} alt='separator' className='section-sep-long'/>
+        <img src={separatorLongImg} alt='separator' className='separator-long'/>
 
       </Box>
     );
