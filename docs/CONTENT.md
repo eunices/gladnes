@@ -24,10 +24,16 @@ Submit to Google forms or NoSQL
 
 Autocompletion based on guest list?
 
-1. Wedding guestbook/ well wishes
+4. Wedding guestbook/ well wishes
 
 Name, well wishes
 
 Gallery wall
 
 Image upload?
+
+
+### Technical aspects
+
+Google forms
+Validation

@@ -15,8 +15,7 @@ class Home extends Component {
   render() {
     return(
       <Box>
-        
-        <img src={bannerImg} alt='banner' className='banner'/>
+      
 
         <div id= "programme"></div>
         <Programme/>

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import { 
   Box, Heading, 
-  FormField, Form, TextInput, TextArea,
+  FormField, Form, TextInput,
   Button,
 } from 'grommet';
 
@@ -26,7 +26,6 @@ class CheckInForm extends Component {
               Check-In <Location size="large"/>
               </Heading>
 
-              
               <Form
                 // value={value}
                 // onChange={nextValue => setValue(nextValue)}

@@ -52,7 +52,7 @@ class Programme extends Component {
               <Text size="medium"  className='centered'>
           Be completely humble and gentle; 
           be patient, bearing with one another in love. 
-                <StatusGoodSmall size='small' className='separator'/> Ephesians 4:2
+                <StatusGoodSmall size='small' className='separator'/>Ephesians 4:2
               </Text>
             </Box>
           </Box>

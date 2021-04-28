@@ -17,12 +17,12 @@ const theme = {
     colors: {
       brand: '#627433',
       icon: '#c4c993',
-      'accent-1': '#f3acb6',
+      'accent-1': '#adbf82',
       'accent-2': '#414e22',
       'accent-4': '#dd6274',
     },
     font: {
-      family: 'Montserrat',
+      family: 'Lora',
       size: '18px',
       height: '20px',
     },
@@ -33,6 +33,7 @@ const theme = {
     font: {
       family: 'Ma Shan Zheng',
     },
+    weight: 200,
   },
 
 
