@@ -1,5 +1,7 @@
 # Wedding site
 
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 ## Features
 
 In order of priority
@@ -14,9 +16,15 @@ In order of priority
 Grommet, using documentation [here](https://github.com/grommet/grommet-starter-new-app)
 
 
-# Getting Started with Create React App
+## Deployment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Using Google Cloud App Engine
+
+1. Create `app.yaml` using `app.yaml.template`. Resource used [here](https://cloud.google.com/appengine/docs/standard/nodejs/config/appref).
+2. Create project on Google Cloud. Each project can only have one app.
+3. `gcloud init`
+4. `gcloud app deploy`
+
 
 ## Available Scripts
 
