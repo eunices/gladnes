@@ -25,6 +25,7 @@ Using Google Cloud App Engine
 3. `gcloud init`
 4. `gcloud app deploy`
 
+Currently hosted at https://gladnes.et.r.appspot.com/
 
 ## Available Scripts
 
