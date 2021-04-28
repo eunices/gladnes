@@ -18,7 +18,7 @@ class Home extends Component {
         backgroundImage: `url(${background})`,
         backgroundRepeat: 'no-repeat',
         backgroundSize: '80%',
-        backgroundPosition: '120% -13%',
+        backgroundPosition: '120% 0%',
       }}>
         <div id= "programme" className='programme'></div>
         <Programme/>

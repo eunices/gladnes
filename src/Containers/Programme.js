@@ -12,7 +12,7 @@ class Programme extends Component {
         borderRadius: '20px',
         width: '80%',
         margin: '100px auto',
-      }} flex={false} pad={{top: '160px', bottom: '100px'}}>
+      }} flex={false} pad={{top: '60px', bottom: '100px'}}>
         <Box 
           pad={{horizontal: 'xsmall'}}
           direction='column'
