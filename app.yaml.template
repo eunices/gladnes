@@ -1,0 +1,8 @@
+runtime: nodejs14 # or another supported version
+
+instance_class: F2
+
+env_variables:
+  REACT_APP_GOOGLE_FORM_BASE_URL: "https://script.google.com/macros/s/"
+  REACT_APP_GOOGLE_FORM_KEY_CHECKIN: "XXXXXXXXXX"
+  REACT_APP_GOOGLE_FORM_KEY_GUESTBOOK: "XXXXXXXXXX"
